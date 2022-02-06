@@ -1,0 +1,11 @@
+.NavBar {
+    display: flex;
+    justify-content: right;
+    color: #C18C5D;
+    font-size: 1.5em;
+    margin: 0em;
+}
+
+.NavButton {
+    padding: 0.2em;
+}

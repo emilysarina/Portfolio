@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap');
+
+body {
+    background-color: var(--fith-bg-color);
+}
+
+.namesection {
+    text-align: start;
+    position: fixed;
+    justify-content: left;
+    padding: 5em;
+}
+
+.intro {
+    color: #e7ad99; 
+    font-size: 2em;
+    font-weight: 500;
+    margin: 0em;
+}
+
+.nameTitle {
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: #ce796b;
+    font-size: 6em;
+    font-weight: 400;
+    margin: 0em;
+}
+
+.about {
+    font-size: 1.5em;
+    color: #ecc8af;
+}
+
+.cvButton {
+    color: #ecc8af;
+    font-size: 1.5em;
+    font-weight: 400;
+    padding: 0.25em 0.5em;
+    border-radius: 10px;
+    background-color: #ecc8af00;
+    border: 2px solid #ecc8af;
+    margin: 0.5em;
+}
+
+.cvButton:hover {
+    background-color: #ecc8af83;
+}
+
+
+.socialButton {
+    color: #e7ad99;
+    font-size: 1.5em;
+    font-weight: 400;
+    padding: 0.25em 0.5em;
+    border-radius: 10px;
+    background-color: #e7ac9900;
+    border: 2px solid #e7ad99;
+    margin: 0.5em;
+}
+
+.socialButton:hover {
+    background-color: #e7ac997c; 
+}
