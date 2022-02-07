@@ -1,3 +1,9 @@
+.about {
+    overflow: auto;
+    min-height: 100vh;
+    background-color: var(--third-bg-color);
+}
+
 .aboutTitle {
     color: #ECC8AF;
     font-weight: 500;
@@ -11,7 +17,8 @@
     display: flex;
     justify-content: left;
     color: var( --second-bg-color);
-   padding-left: 3.5em;
+    font-weight: 700;
+    padding-left: 3.5em;
 }
 
 .aboutPoint {

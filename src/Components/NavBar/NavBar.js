@@ -11,8 +11,10 @@ export default function NavBar() {
       Projects.</p>
       <p className={css.NavButton}>
       Experience.</p>
+      <Link to="Contact">
       <p className={css.NavButton}>
       Contact.</p>
+      </Link>
   </div>;
 }
 

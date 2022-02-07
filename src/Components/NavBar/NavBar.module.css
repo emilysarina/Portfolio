@@ -1,7 +1,9 @@
 .NavBar {
+    background-color: var(--darker-fith-bg-color);
+    position: sticky;
     display: flex;
     justify-content: right;
-    color: #C18C5D;
+    color: var(--second-bg-color);
     font-size: 1.2em;
     margin: 0em;
 }
@@ -20,6 +22,6 @@ a:link {
 
 a:visited {
     text-decoration: none;
-    color:#C18C5D;
+    color:var(--second-bg-color);
 }
 
