@@ -1,0 +1,9 @@
+.paragraph {
+font-size: 1.5em; 
+text-align: start;  
+display: flex;
+justify-content: left;
+padding: 1.5em;
+margin: 0em;
+padding-left: 3em;
+}

@@ -1,14 +1,10 @@
-
-
 .NavBar {
     display: flex;
     justify-content: right;
     color: #C18C5D;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin: 0em;
 }
-
-
 
 .NavButton {
     padding: 0.2em;
@@ -17,3 +13,13 @@
 .NavButton:hover {
     color: var(--third-bg-color);
 }
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color:#C18C5D;
+}
+
