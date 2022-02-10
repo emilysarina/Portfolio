@@ -1,11 +1,28 @@
 .NavBar {
     background-color: var(--darker-fith-bg-color);
     position: sticky;
-    display: flex;
-    justify-content: right;
     color: var(--second-bg-color);
     font-size: 1.2em;
     margin: 0em;
+    max-height: 3em;
+    display: flex;
+    padding-bottom: 0.5em;
+    padding: 0em;
+}
+
+.pageButtons{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    padding-right: 1em;
+}
+
+.logo {
+    height: 2.5em;
+    width: 2.5em;
+    padding-left: 0.5em;
+    padding-top: 0.25em;
+    align-items: center;
 }
 
 .NavButton {
