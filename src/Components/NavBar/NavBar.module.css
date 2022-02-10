@@ -27,6 +27,7 @@
 
 .NavButton {
     padding: 0.2em;
+    text-decoration: none;
 }
 
 .NavButton:hover {
