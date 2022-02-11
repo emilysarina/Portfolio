@@ -36,7 +36,10 @@
 
 a:link {
     text-decoration: none;
+    color:var(--second-bg-color);
 }
+
+
 
 a:visited {
     text-decoration: none;
