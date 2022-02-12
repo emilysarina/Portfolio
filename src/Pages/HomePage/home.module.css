@@ -36,8 +36,6 @@
 
 .cvButton {
     color: #ecc8af;
-    font-size: 1.5em;
-    font-weight: 400;
     padding: 0.25em 0.5em;
     border-radius: 10px;
     background-color: #ecc8af00;
@@ -49,11 +47,18 @@
     background-color: #ecc8af83;
 }
 
+.cvIcon{
+    height: 2em;
+    width: 3em;
+}
+
+.logo {
+    height: 2em;
+    width: 2em;
+}
 
 .socialButton {
     color: #e7ad99;
-    font-size: 1.5em;
-    font-weight: 400;
     padding: 0.25em 0.5em;
     border-radius: 10px;
     background-color: #e7ac9900;
