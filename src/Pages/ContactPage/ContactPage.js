@@ -2,22 +2,22 @@ import React from 'react';
 import css from './contactPage.module.css';
 import Title from '../../Components/Title/Title';
 import Paragraph from '../../Components/Paragraph/Paragraph'
-
+import { Data } from '../data/data'
 
 export default function ContactPage() {
   return <div className={css.contactPage}>
   <div className={css.contactTitle}>
-    <Title text={'Get in Touch!'} />
+    <Title text={Data[1].title} />
     </div>
     <div className={css.contactParagraph}>
-    <Paragraph text={'I’m always happy to have a chat or answer any questions. Say hi and I’ll do my best to get back to you as soon as I can!'} />
+    <Paragraph text={Data[1].paragraph} />
     </div>
     <div className={css.contactDetails}>
       <p className={css.email}>
-        emy.sarina@gmail.com
+        {Data[1].gmail}
       </p>
       <p className={css.phoneNo}>
-        07425163740
+      {Data[1].phone}
       </p>
     </div>
   </div>;

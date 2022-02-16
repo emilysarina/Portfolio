@@ -2,14 +2,15 @@ import React from 'react';
 import Title from '../../Components/Title/Title';
 import css from './about.module.css';
 import Paragraph from '../../Components/Paragraph/Paragraph';
+import {Data} from '../data/data'
 
 export default function About() {
   return <div className={css.about}>
   <div className={css.aboutTitle}>
-      <Title text={'About Me.'}/>
+      <Title text={Data[0].title}/>
       </div>
       <div className={css.aboutParagraph}>
-      <Paragraph text= {"Stuff about what I’ve done. What I’m doing now. Yada yada yada yada yada"} />
+      <Paragraph text= {Data[0].paragraph} />
       </div>
      <ul className={css.aboutSkills}>
        <li className={css.aboutPoint}>JavaScript (ES6)</li>

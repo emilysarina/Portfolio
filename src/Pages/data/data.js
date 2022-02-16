@@ -1,4 +1,4 @@
-export const Data = [
+const Data = [
     {
         page: 'about',
         title: 'About Me.',
@@ -12,3 +12,5 @@ export const Data = [
         phone: '07425163740'
     }
 ]
+
+export { Data }
