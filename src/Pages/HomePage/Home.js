@@ -11,11 +11,11 @@ export default function Home() {
           Emily Sarina Ekins
       </h1>
       <p className={css.about}>
-          I'm a full-Stack developer in training with a passion for all things styled.
+          I'm a full-Stack developer in training with a love for colour and style.
       </p>
       
       <button className={css.cvButton}>
-      <img src='https://i.ibb.co/0QqDcY5/Untitled-Artwork-8.png' alt='logo' className={css.cvIcon}/>
+      <img src='/cvButton.jpeg' alt='logo' className={css.cvIcon}/>
       </button>
       <button className={css.socialButton}>
       <img src='https://i.ibb.co/mJNF2nF/pink-linkedin.png' alt='logo' className={css.logo}/>

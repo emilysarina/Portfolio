@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function NavBar() {
   return <div className={css.NavBar}>
       <Link to="/">
-      <img src='https://i.ibb.co/7NTChCw/E-9.png' alt='logo' className={css.logo}/>
+      <img src='/ese.png' alt='logo' className={css.logo}/>
       </Link> 
       <div className={css.pageButtons}>
       <Link to="about">
@@ -13,8 +13,6 @@ export default function NavBar() {
       About.</p></Link>
       <p className={css.NavButton}>
       Projects.</p>
-      <p className={css.NavButton}>
-      Experience.</p>
       <Link to="Contact">
       <p className={css.NavButton}>
       Contact.</p>

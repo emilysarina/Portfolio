@@ -2,7 +2,8 @@ const Data = [
     {
         page: 'about',
         title: 'About Me.',
-        paragraph: 'Stuff about what I’ve done. What I’m doing now. Yada yada yada yada yada',
+        paragraph: `Hi! After training as a pastry chef and then living abroad, last year I embarked on the challenge of becoming a full stack developer. I'm now a self driven, creative developer with a passion for design and detail. 
+        `,
     },
     {
         page: 'Contact',

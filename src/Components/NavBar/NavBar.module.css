@@ -19,6 +19,10 @@
     color: var(--third-bg-color);
 }
 
+.NavButton:active {
+    color: var(--third-bg-color); 
+}
+
 a:link {
     text-decoration: none;
     color:var(--second-bg-color);

@@ -13,7 +13,7 @@ export default function About() {
       <Paragraph text= {Data[0].paragraph} />
       </div>
      <ul className={css.aboutSkills}>
-       <li className={css.aboutPoint}>JavaScript (ES6)</li>
+       <li  className={css.aboutPoint}>JavaScript (ES6)</li>
        <li className={css.aboutPoint}>Node.js</li>
        <li className={css.aboutPoint}>React</li>
      </ul>
