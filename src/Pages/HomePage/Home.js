@@ -15,10 +15,10 @@ export default function Home() {
       </p>
       
       <button className={css.cvButton}>
-      <img src='/cvButton.jpeg' alt='logo' className={css.cvIcon}/>
+      <img src='/cvlogo.png' alt='logo' className={css.cvIcon}/>
       </button>
       <button className={css.socialButton}>
-      <img src='https://i.ibb.co/mJNF2nF/pink-linkedin.png' alt='logo' className={css.logo}/>
+      <img src='/linkedin.png' alt='logo' className={css.logo}/>
       </button>
       </div>
 
