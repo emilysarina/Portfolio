@@ -1,0 +1,9 @@
+.projects {
+    overflow: auto;
+    min-height: 100vh;
+    background-color: var(--fourth-bg-color);
+}
+
+.projectTitle {
+    color: var(--main-bg-color);
+}
