@@ -23,7 +23,7 @@ export default function Projects() {
     projectImg='/FeedbackSite.png' 
     altText={'Feedback Site'} 
     title={"One Week Project"} 
-    body={"On week nine of the bootcamp we worked in a team to solve a problem for the bootcamp. Our team decided to make a bootcamper portal with a simplified feedback form and a help section."}
+    body={"On week nine of the bootcamp we worked in a team to solve a problem for the bootcampers and coaches. Our team decided to make a bootcamper portal with a simplified feedback form and a help section."}
     projectWebsite={'https://heuristic-johnson-b3e4f3.netlify.app'}  
     />
     </div>
