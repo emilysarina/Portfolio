@@ -3,17 +3,18 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { CardActionArea, CardActions } from '@mui/material';
+import { CardActionArea, CardActions} from '@mui/material';
+
 
 
 
 export default function ProjectCard({projectImg, altText, title, body, projectWebsite}) {
   return (
-    <Card sx={{ maxWidth: 345, bgcolor:'#495867'}}>
+    <Card sx={{ maxWidth: 345, bgcolor:'#495867', padding:'0.3em'}}>
     <CardActionArea>
       <CardMedia sx={{ bgcolor:'#495867', display: 'inline', border:'2px'}}
         component="img"
-        height="140"
+        height="160"
         image={projectImg}
         alt={altText}
       />
