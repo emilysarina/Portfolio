@@ -14,11 +14,11 @@ export default function ContactPage() {
     </div>
     <div className={css.contactDetails}>
       <p className={css.email}>
-        {Data[1].gmail}
+        {Data[1].email}
       </p>
-      <p className={css.phoneNo}>
+      {/* <p className={css.phoneNo}>
       {Data[1].phone}
-      </p>
+      </p> */}
     </div>
   </div>;
 }
