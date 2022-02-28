@@ -9,9 +9,9 @@
 
 .namesection {
     text-align: start;
-    position: fixed;
     justify-content: left;
     padding: 5em;
+    padding-top: 15em;
 }
 
 .intro {

@@ -4,6 +4,19 @@
     background-color: var(--third-bg-color);
 }
 
+.picture {
+    height: 17em;
+    box-shadow: 10px 10px var(--second-bg-color);
+}
+
+.aboutImage{
+    position:relative;
+    padding: 1em;
+    padding-right: 15em;
+    float: right;
+    
+} 
+
 .aboutTitle {
     color: var(--fith-bg-color);
     font-weight: 500;
@@ -14,16 +27,16 @@
 }
 
 .aboutSkills {
-    display: flex;
-    justify-content: left;
     color: var( --main-bg-color);
     font-weight: 700;
     padding-left: 3.5em;
 }
 
+
 .aboutPoint {
    margin: 1.5em;
    font-size: 1.5em;
+   text-align: left;
 }
 
 .aboutPoint:hover{
