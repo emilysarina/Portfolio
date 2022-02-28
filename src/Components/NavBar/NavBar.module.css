@@ -17,6 +17,14 @@
     text-decoration: none;
 }
 
+ul {
+list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
 .NavButton:hover {
     color: var(--third-bg-color);
 }
