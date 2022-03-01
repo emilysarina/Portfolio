@@ -22,6 +22,7 @@
     font-weight: 500;
 }
 
+
 .aboutParagraph {
     color: var(--main-bg-color);
 }
@@ -42,3 +43,9 @@
 .aboutPoint:hover{
     color: var(--fith-bg-color);
 }
+
+@media screen and (max-width: 600px) {
+    .aboutParagraph {
+        max-width: 1em;
+    }
+  }
