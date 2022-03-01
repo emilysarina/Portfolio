@@ -11,7 +11,7 @@ export default function About() {
       <aboutImage className={css.aboutImage}>
       <img 
       src="/me.JPG" 
-      alt="Girl in a garden" 
+      alt="Girl in a big garden" 
       className={`${css.picture} ${css.aboutGrid}`}/>
       </aboutImage>
       </div>
