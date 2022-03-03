@@ -5,6 +5,7 @@
 }
 
 .projectTitle {
+    margin-top: 8em;
     color: var(--main-bg-color);
 }
 

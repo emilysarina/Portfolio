@@ -4,31 +4,31 @@
     background-color: var(--third-bg-color);
 }
 
-.picture {
-    height: 17em;
-    box-shadow: 10px 10px var(--second-bg-color);
-}
-
-.aboutImage{
-    position:relative;
-    padding: 1em;
-    padding-right: 15em;
-    float: right;
-    
-} 
-
 .aboutTitle {
+    margin-top: 8em;
     color: var(--fith-bg-color);
     font-weight: 500;
 }
 
-
-.aboutParagraph {
-    color: var(--main-bg-color);
+.picture {
+    height: 20em;
+    box-shadow: 10px 10px var(--second-bg-color);
 }
 
+.aboutImage{
+    margin-right: 15em;
+    float: right;
+    width: 20em;
+    height: 25em;
+}
+
+
+.aboutParagraph {
+    color: #fbd5b9;
+}
+
+
 .aboutSkills {
-    color: var( --main-bg-color);
     font-weight: 700;
     padding-left: 3.5em;
 }
@@ -38,14 +38,35 @@
    margin: 1.5em;
    font-size: 1.5em;
    text-align: left;
+   color: var(--main-bg-color);
 }
 
 .aboutPoint:hover{
     color: var(--fith-bg-color);
 }
 
-@media screen and (max-width: 600px) {
-    .aboutParagraph {
-        max-width: 1em;
+@media only screen and (max-width: 1180px) {
+    .picture {
+      height: 20em;
+    }
+    .aboutImage {
+        margin-top: 2em;
+        margin-bottom: 0em;
+        margin-left: 0em;
+        margin-right:0em;
+    }
+  }
+
+@media only screen and (max-width: 700px) {
+    .picture {
+      height: 15em;
+    }
+    .aboutImage {
+        float: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 2em;
+        margin-bottom: 0em;
+        margin-left: 0em
     }
   }

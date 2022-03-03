@@ -16,9 +16,6 @@ export default function ContactPage() {
       <p className={css.email}>
         {Data[1].email}
       </p>
-      {/* <p className={css.phoneNo}>
-      {Data[1].phone}
-      </p> */}
     </div>
   </div>;
 }
