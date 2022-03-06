@@ -34,18 +34,17 @@
     color: #ecc8af;
 }
 
-.cvButton {
+.gitButton {
     color: #ecc8af;
     padding: 0.25em 0.5em;
     border-radius: 10px;
-    padding-top: 0.3em;
-    background-color: #ecc8af00;
+    background-color: #e7ac9900;
     border: 2px solid #ecc8af;
-    margin: 0.5em;
+    
 }
 
-.cvButton:hover {
-    background-color: #ecc8af83;
+.gitButton:hover {
+    background-color: #ecc8af83
 }
 
 .cvIcon{
@@ -64,9 +63,15 @@
     border-radius: 10px;
     background-color: #e7ac9900;
     border: 2px solid #e7ad99;
-    margin: 0.5em;
+    
 }
 
 .socialButton:hover {
     background-color: #e7ac997c; 
+}
+
+.socialButtons {
+    display: flex;
+    justify-content: space-between;
+    width: 6em;
 }
