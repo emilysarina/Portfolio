@@ -43,6 +43,10 @@ a:visited {
     color:var(--second-bg-color);
 }
 
+a:link:current {
+    border: 1px solid white;
+}
+
 .pageButtons{
     display: flex;
     margin-left: auto;

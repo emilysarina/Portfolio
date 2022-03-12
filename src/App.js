@@ -11,10 +11,18 @@ function App() {
       <header>
        <NavBar/>
       </header>
+      <section id='home'>
       <HomePage/>
+      </section>
+      <section id='about'>
       <AboutPage/>
+      </section>
+      <section id='projects'>
       <Projects/>
+      </section>
+      <section id='contact'>
       <ContactPage/>
+      </section>
     </div>
   );
 }
