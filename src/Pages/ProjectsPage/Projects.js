@@ -3,7 +3,6 @@ import css from './projects.module.css';
 import Title from '../../Components/Title/Title';
 import ProjectCard from '../../Components/ProjectCard/ProjectCard';
 import { Grid } from '@mui/material';
-import { padding } from '@mui/system';
 
 //this is the projects page 
 
