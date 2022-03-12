@@ -14,11 +14,11 @@ export default function ProjectCard({projectImg, altText, title, body, projectWe
     <CardActionArea>
       <CardMedia sx={{ bgcolor:'#495867', display: 'inline', border:'2px'}}
         component="img"
-        height="160"
+        height="190"
         image={projectImg}
         alt={altText}
       />
-      <CardContent height='10em'>
+      <CardContent style={{height:'10em'}}>
         <Typography 
          gutterBottom variant="h5"
          component="div" 
