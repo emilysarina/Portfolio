@@ -26,7 +26,7 @@ export default function About() {
        <li className={css.aboutPoint}>Node.js</li>
        <li className={css.aboutPoint}>React</li>
      </ul>
-     
+     <div className={css.aboutShape}></div>
   </div>;
 }
 

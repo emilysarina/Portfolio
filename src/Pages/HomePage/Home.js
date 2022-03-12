@@ -28,7 +28,7 @@ export default function Home() {
       </a>
       </div>
       </div>
-
+      <div className={css.homeShape}></div>
   </main>;
 }
 //https://github.com/emilysarina

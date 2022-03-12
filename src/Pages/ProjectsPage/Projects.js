@@ -32,7 +32,8 @@ export default function Projects() {
     />
     </Grid>
     </Grid>
+    <div className={css.projectShape}></div>
     </div>
-    
+   
   )
 }

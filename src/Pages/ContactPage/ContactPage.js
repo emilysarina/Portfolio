@@ -6,6 +6,7 @@ import { Data } from '../data/data'
 
 export default function ContactPage() {
   return <div className={css.contactPage}>
+  <div className={css.contactShape}></div>
   <div className={css.contactTitle}>
     <Title text={Data[1].title} />
     </div>

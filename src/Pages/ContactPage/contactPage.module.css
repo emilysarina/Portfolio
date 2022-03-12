@@ -4,6 +4,15 @@
     background-color: var(--main-bg-color);
 }
 
+.contactShape {
+  position: relative;
+  float: right;
+  background: var(--fourth-bg-color);
+  width: 50%;
+  height: 50px;
+  border-radius: 0 0 0 100%;
+}
+
 .contactTitle {
     margin-top: 8em;
     color: #a56055;

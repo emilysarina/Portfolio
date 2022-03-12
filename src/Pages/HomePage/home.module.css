@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap');
 
 .homepage {
-    overflow: auto;
+    /* overflow: auto; */
     min-height: 100vh;
     background-color: var(--fith-bg-color);
 }
-
 
 .namesection {
     text-align: start;
@@ -74,4 +73,16 @@
     display: flex;
     justify-content: space-between;
     width: 6em;
+}
+
+.homeShape {
+    margin: 0;
+    padding: 0em;
+    margin-top: 9em;
+    display: flex;
+    margin-bottom: 0em;
+    background: var(--third-bg-color);
+    width: 100%;
+    height: 75px;
+    border-radius: 100% 0 0 0;
 }

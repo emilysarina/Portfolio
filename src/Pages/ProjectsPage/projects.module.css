@@ -9,3 +9,9 @@
     color: var(--darker-fith-bg-color);
 }
 
+.projectShape {
+  background: var(--main-bg-color);
+  border-radius: 0 100% 0 0;
+  width: 50%;
+  height: 50px;
+}
