@@ -18,7 +18,7 @@ export default function Projects() {
     projectImg='/AudreySite2.png' 
     altText={'Audrey Hepburn Site'} 
     title={"Precourse Project"} 
-    body={"Before I started The School of Code Bootcamp all bootcamper had to make a site that passed the 'freecodecamps' tribute page test's. I did mine on Audery Hepburn. This was the first coding project I ever made."}
+    body={"Before I started The School of Code Bootcamp all bootcamper had to make a site that passed the 'freecodecamps' tribute page test's. I did mine on Audrey Hepburn. This was the first coding project I ever made."}
     projectWebsite={'https://pre-course-project.netlify.app'}  
     />
     </Grid>
