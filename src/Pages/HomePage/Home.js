@@ -17,12 +17,12 @@ export default function Home() {
       
       <div className={css.socialButtons}>
       <a href="https://github.com/emilysarina" target="_blank" rel="noreferrer">
-      <button className={css.gitButton}>
+      <button className={css.gitButton} aria-label="github link">
       <GithubIcon/>
       </button>
       </a>
       <a href="https://www.linkedin.com/in/emily-sarina-ekins-664079217" target="_blank" rel="noreferrer">
-      <button className={css.socialButton}>
+      <button className={css.socialButton} aria-label="linkedin link">
       <img src='/linkedin.png' alt='logo' className={css.logo}/>
       </button>
       </a>

@@ -6,7 +6,7 @@
 
 .contactTitle {
     margin-top: 8em;
-    color: var(--third-bg-color);
+    color: #a56055;
 }
 
 .contactParagraph {
@@ -14,7 +14,7 @@
 }
 
 .email {
-    color: var(--second-bg-color);
+    color:  #ffe9d9;
     line-height: 0em;
     font-weight: 600;
     letter-spacing: 0.1em;

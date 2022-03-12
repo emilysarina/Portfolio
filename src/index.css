@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap');
 
 :root {
-  --main-bg-color: #ecc8af;
-  --second-bg-color: #e7ad99;
-  --third-bg-color: #ce796b;
+  --main-bg-color: #f6d0b5;
+  --second-bg-color: #ffbea8;
+  --third-bg-color: #c27164;
   --fourth-bg-color: #c18c5d;
-  --fith-bg-color: #495867;
-  --darker-fith-bg-color: #44525f;
+  --fith-bg-color: #44525f;
+  --darker-fith-bg-color: #3b4854;
 }
 
 body {

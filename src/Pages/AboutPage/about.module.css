@@ -6,8 +6,15 @@
 
 .aboutTitle {
     margin-top: 8em;
-    color: var(--fith-bg-color);
+    color: #333e48;
     font-weight: 500;
+}
+
+.aboutWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
 }
 
 .picture {
@@ -16,15 +23,13 @@
 }
 
 .aboutImage{
-    margin-right: 15em;
-    float: right;
-    width: 20em;
-    height: 25em;
+    margin: 2em;
+    margin-left: 2em;
 }
 
-
 .aboutParagraph {
-    color: #fbd5b9;
+    color: #f7e9de;
+    margin-right: 2em;
 }
 
 
@@ -38,35 +43,31 @@
    margin: 1.5em;
    font-size: 1.5em;
    text-align: left;
-   color: var(--main-bg-color);
+   color:#f7e9de;
 }
 
 .aboutPoint:hover{
     color: var(--fith-bg-color);
 }
 
-@media only screen and (max-width: 1180px) {
-    .picture {
-      height: 20em;
+
+@media only screen and (max-width: 1000px) {
+    .aboutWrapper{
+        flex-direction: column-reverse;
+        margin: 0;
+        justify-content: center;
+        text-align: center;
     }
-    .aboutImage {
-        margin-top: 2em;
-        margin-bottom: 0em;
-        margin-left: 0em;
-        margin-right:0em;
+    .aboutParagraph{
+        margin: 0;
+    }
+    .aboutTitle {
+        align-items: center;
     }
   }
 
-@media only screen and (max-width: 700px) {
-    .picture {
-      height: 15em;
+  @media only screen and (max-width: 600px) {
+    .picture{
+        height: 15em;
     }
-    .aboutImage {
-        float: none;
-        display: flex;
-        justify-content: center;
-        margin-top: 2em;
-        margin-bottom: 0em;
-        margin-left: 0em
-    }
-  }
+  }  
