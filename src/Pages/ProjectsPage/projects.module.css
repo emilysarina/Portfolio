@@ -12,11 +12,11 @@
 .projectShape {
   background: var(--main-bg-color);
   border-radius: 0 100% 0 0;
-  width: 50%;
+  width: 49.5%;
   height: 50px;
   margin: 0;
   padding: 0em;
   margin-top: 9em;
   display: flex;
-  margin-bottom: -0.2em;
+  margin-bottom: -0.3em;
 }
