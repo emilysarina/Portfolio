@@ -12,7 +12,7 @@ export default function Projects() {
     <div className={css.projectTitle}>
     <Title text={"Projects"}  />
     </div>
-    <Grid container spacing={1} sx={{padding:'4em'}} >
+    <Grid container spacing={1} sx={{padding:'5em'}} >
     <Grid item xs={12} md={4} style={{paddingTop:'1em'}}>
     <ProjectCard className={css.projectCard}
     projectImg='/AudreySite2.png' 
