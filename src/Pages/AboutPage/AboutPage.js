@@ -15,7 +15,7 @@ export default function About() {
       </div>
       <div className={css.aboutImage}>
       <img 
-      src="/me.JPG" 
+      src={`${process.env.PUBLIC_URL}/me.JPG`}
       alt="Girl in a big garden" 
       className={css.picture}/>
       </div>

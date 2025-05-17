@@ -10,7 +10,7 @@ export default function NavBar() {
        e.preventDefault();  // Stop Page Reloading
        home && home.scrollIntoView({ behavior: 'smooth' });
        }}>
-      <img src='/ese.png' alt='logo' className={css.logo}/>
+      <img src={`${process.env.PUBLIC_URL}/ese.png`} alt='logo' className={css.logo}/>
       </a>
       <div className={css.pageButtons}>
       <ul className={css.NavList}>

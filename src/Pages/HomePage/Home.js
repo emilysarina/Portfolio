@@ -23,7 +23,7 @@ export default function Home() {
       </a>
       <a href="https://www.linkedin.com/in/emily-sarina-ekins-664079217" target="_blank" rel="noreferrer">
       <button className={css.socialButton} aria-label="linkedin link">
-      <img src='/linkedin.png' alt='logo' className={css.logo}/>
+      <img src={`${process.env.PUBLIC_URL}/linkedin.png`} alt='logo' className={css.logo}/>
       </button>
       </a>
       </div>
