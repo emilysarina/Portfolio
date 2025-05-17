@@ -1,12 +1,12 @@
 # Emily Sarina Ekins – Portfolio
 
+This is my personal portfolio site, originally built before my first developer role to showcase my early projects and bootcamp experience. It’s a React-based single-page app with custom styling and a clean, section-based layout.
+
 ## 🚧 Work in Progress
 
 The original version is still live while I build this refresh. Most recent client work is under NDA, but I’m happy to talk through specific projects on request.
 
 Live site can be seen [here](https://emilysarina.github.io/Portfolio/)
-
-This is my personal portfolio site, originally built before my first developer role to showcase my early projects and bootcamp experience. It’s a React-based single-page app with custom styling and a clean, section-based layout.
 
 ## 🛠 Planned Updates
 
